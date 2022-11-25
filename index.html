@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+  </head>
+  <body>
+    <main role="main">
+      <section class="container">
+        <img id="star" src="images/icon-star.svg" alt="" />
+        <h1>How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <section class="rating-container">
+          <button class="num rate1">1</button>
+          <button class="num rate2">2</button>
+          <button class="num rate3">3</button>
+          <button class="num rate4">4</button>
+          <button class="num rate5">5</button>
+        </section>
+
+        <button id="submitBtn" class="btn">SUBMIT</button>
+      </section>
+
+      <!-- Thank You state start -->
+      <section class="thanks-container thanks">
+        <img src="images/illustration-thank-you.svg" alt="thank-you icon" />
+
+        <p id="feedback">
+          You selected
+          <span id="rated">4</span>
+          out of 5
+        </p>
+
+        <h2>Thank you!</h2>
+
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don&apos;t hesitate to get in touch!
+        </p>
+      </section>
+
+      <!-- Thank you state end -->
+    </main>
+
+    <footer role="contentinfo" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://frontendmentor/profile/mishael-codes">mishael-codes</a>.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
