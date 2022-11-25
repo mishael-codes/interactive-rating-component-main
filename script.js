@@ -12,5 +12,9 @@ submitBtn.addEventListener("click", () => {
 ratings.forEach((rate) => {
   rate.addEventListener("click", () => {
     rated.textContent = rate.textContent;
+    submitBtn.addEventListener("click", () => {
+      container.classList.add("thanks");
+      thanks.classList.remove("thanks");
+    });
   });
 });
